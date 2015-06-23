@@ -67,10 +67,10 @@ my $gen_date = $lt[3].'.'.($lt[4] + 1).'.'.($lt[5] + 1900);
 
 my $rev_struct = cmdo( "cd $FindBin::RealBin; git rev-parse HEAD", no => 1 );
 my $src_sha1 = $rev_struct->{out};
-my $src_url = "https://github.com/mj41/git-course-mj41/commits/$src_sha1/git-course-mj41.pl";
+my $src_url = "https://github.com/mj41/perl6-history-mj41/commits/$src_sha1/perl6-history-mj41.pl";
 my $first_slide_suffix_html =
 	  '<small>by <a href="http://mj41.cz">Michal Jurosz (mj41)</a><br />'
-	. qq|generated: <a href="$src_url">$gen_date</a><br /></small>|;
+	. qq|generated <a href="$src_url">$gen_date</a><br /></small>|;
 
 my $sc = Presentation::Builder::SlideCollection::Reveal->new(
 	title => 'Perl Family',

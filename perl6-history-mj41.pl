@@ -212,12 +212,7 @@ MD_END
 * https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Convention
 * First brief mention of Perl 6 at end of talk.
 * http://www.perlfoundation.org/perl6/index.cgi?state_of_the_onion#the_state_of_the_onion_4_2000
-* http://archive.oreilly.com/pub/a/oreilly//news/parrotstory_0401.html
 * http://www.perl.com/pub/2001/04/01/parrot.htm
-* people - Chip, Leo, Dan, Jesse, Alisson, chromatic, ...
-* Larry, Damian, Audrey, Patric, ...
-* Java has Sun. .NET has Microsoft. Mono has Novell
-* volunteers will do what they want
 MD_NOTES
 );
 
@@ -248,8 +243,6 @@ MD_END
 * 29.8.2001 13:36:49 - CVS rev1: "first readme."
 * third commit - Initial checkin of Simon's work directory
 * http://www.perl.com/pub/2000/07/perl6.html
-* http://archive.oreilly.com/pub/a/oreilly//news/parrotstory_0401.html
-* http://www.perl.com/pub/2001/04/01/parrot.htm
 * people - Chip, Leo, Dan, Jesse, Alisson, chromatic, ...
 * Larry, Damian, Audrey, Patric, ...
 * Java has Sun. .NET has Microsoft. Mono has Novell

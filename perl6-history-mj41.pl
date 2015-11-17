@@ -771,14 +771,13 @@ MD_END
 * QAST is a replacement for PAST, Q is just P++
 * https://6guts.wordpress.com/2012/05/26/switching-to-qregex-for-parsing-perl-6-source/
 * https://6guts.wordpress.com/2012/07/20/the-rakudo-move-to-qast-progressing-nicely/
-* chromatic http://www.modernperlbooks.com/mt/2013/02/goodnight-parrot.html
+* http://www.modernperlbooks.com/mt/2013/02/goodnight-parrot.html
 MD_NOTES
 );
 
 $sc->add_slide(
 	'nom/6model/QRegex - ..2012',
 	markdown => <<'MD_END',
-* 1/2011 chromatic - stopped working on Parrot (contributor since late 2001)
 * 9/2011 - Rakudo itself is now mostly written in NQP and Perl 6 (90-95%),
 * 1/2012 - so, we made it, in many sense this is a revolution
 * 5/2012 - QRegex, QAST is AST design and implementation, written in NQP

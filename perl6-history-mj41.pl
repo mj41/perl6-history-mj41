@@ -6,7 +6,7 @@
     rm -rf /home/mj/devel/my-slides/perl6-history-mj41/final-slides/*
     # generate slides
     cd ~/devel/dalsi-my/prbuilder-docker/
-    ./bin/build-slides ~/devel/my-slides/perl6-history-mj41/ perl6-history-mj41.pl mj41/prbuilder:local DEBUG
+    ./bin/build-slides ~/devel/my-slides/perl6-history-mj41/ perl6-history-mj41.pl mj41/prbuilder:local DEBUG 1
     firefox ~/devel/my-slides/perl6-history-mj41/final-slides/index.html
 
     # or node-static
